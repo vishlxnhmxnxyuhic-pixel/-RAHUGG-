@@ -118,6 +118,14 @@ gg.refineNumber("1.0",gg.TYPE_FLOAT)
 gg.getResults(1000)
 gg.editAll("2.5", gg.TYPE_FLOAT)
 gg.clearResults()
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.1;5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(8888, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("9E37", gg.TYPE_FLOAT)
+
+
     
 end
 
