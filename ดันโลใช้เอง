@@ -1,5 +1,9 @@
 
 
+
+
+
+
 if gg.alert("ꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n🇹🇭 𝐒𝐂𝐑𝐈𝐏𝐓 RAUNGG 🇹🇭\nꔼ━━━━━━━━━━━━━━━━━━━━━━━ꘁ\n𝐎𝐖𝐍𝐄𝐑 : @Rox9888\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝐀𝐩𝐩 𝐧𝐚𝐦𝐞 : " .. gg.getTargetInfo()["label"] .. " \n𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : " .. gg.getTargetInfo()["versionName"] .. " [" .. gg.getTargetInfo()["versionCode"] .. "]\n𝐒𝐜𝐫𝐢𝐩𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 : 𝐕𝐕𝐈𝐏+\n-------------------------\n" .. "", "🅾🅺", "🅴🆇🅸🆃") ~= 1 then
 gg.setVisible(false)
 gg.clearResults()
