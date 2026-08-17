@@ -1,5 +1,16 @@
 
+function Loading()
+    for p = 1, 100 do
+        local filled = math.floor(p / 10)
+        local empty = 5 - filled
+        local bar = string.rep("■", filled) .. string.rep("□", empty)
+        
+        gg.toast(string.format("⏳ Loading... [%s] %d%%", bar, p), true)
+        gg.sleep(10)
+    end
+end
 
+Loading()
 
 
 
